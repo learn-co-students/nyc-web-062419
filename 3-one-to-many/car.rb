@@ -24,8 +24,16 @@ def drive
   puts "#{@nickname} driving"
 end
 
-def all
+#write a method that returns all of a car instances with a specific make 
+
+
+def self.get_by_make(make)
+  Car.all.select do |car|
+    car.make == make
+  end
 end
+
+
 
 def self.all
   @@all
