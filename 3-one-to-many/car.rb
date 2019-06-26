@@ -2,15 +2,16 @@ require 'pry'
 
 class Car
 attr_reader :serial_number, :make, :model
-attr_accessor :nickname
+attr_accessor :nickname, :dealership 
 
 @@all = []
 
-def initialize(make, model, serial_number, nickname)
+def initialize(make, model, serial_number, nickname, dealership)
     @make = make
     @model = model
     @serial_number = serial_number
     @nickname = nickname
+    @dealership = dealership
     @@all << self
   end
 
@@ -31,10 +32,3 @@ def self.all
 end
 
 end
-
-def createCar
-  car = Car.new("toyota", "camry", 1234, "stella")
-  binding.pry
-end
-
-createCar
