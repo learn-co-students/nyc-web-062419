@@ -26,7 +26,6 @@ class Doctor
             appointment_instance.patient
         end
         patients.uniq
-
     end
 
     def make_appointment(patient)
@@ -38,9 +37,9 @@ class Doctor
     end
 
     def self.highest_rating
-       doctors = @@all.select do |doctor|
-            doctor.rating != nil 
-        end
+        doctors = Doctor.find do |doctor|
+                doctor.rating != nil 
+            end
         doctors.sort_by do |doctor|
             doctor.rating
         end.last
