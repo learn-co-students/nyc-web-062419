@@ -13,8 +13,9 @@ class ApplicationController < Sinatra::Base
     erb :welcome
   end
 
-  get "/welcome2" do
+  get "/rappers" do
     @things = ["list", "of", "things"]
+    @rappers = Rapper.all
     erb :welcome2
   end
 
