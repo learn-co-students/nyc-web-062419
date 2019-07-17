@@ -3,6 +3,9 @@
 
 <ul>
     <%@rappers.each do |rapper|%>
-        <li><%=rapper.name%></li>
+    <li>
+
+        <%=link_to rapper.name, "/rappers/#{rapper.id}"%>
+    </li>
     <%end%>
 </ul>

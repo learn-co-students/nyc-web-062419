@@ -1,10 +1,26 @@
 <h1>Rappers#new</h1>
 <p>Find me in app/views/rappers/new.html.erb</p>
 
-<%=form_tag "/rappers" do%>
-    <%=label_tag :name%>
-    <%=text_field_tag :"rapper[name]"%>
-    <%=label_tag :age%>
-    <%=number_field_tag :age%>
-    <%=submit_tag :age%>
+form tag 
+<%=form_tag "/beef", method: :get do %>
+    <%= label_tag :name%>
+    <%= text_field_tag :"beef"%>
+    <%= label_tag :age%>
+    <%= number_field_tag :"rapper[age]"%>
+    <%= submit_tag "submit" %>
 <%end%>
+
+<br/>
+<br/>
+
+form for 
+<%=form_for @beef do |f|%>
+    <%=f.label :name%>
+    <%=f.text_field :name%>
+    <%=f.label :age%>
+    <%=f.number_field :age%>
+    <%=f.submit "submit"%>
+<%end%>
+
+
+
