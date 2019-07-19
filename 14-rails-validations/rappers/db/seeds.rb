@@ -8,7 +8,7 @@
 Rapper.destroy_all
 Song.destroy_all 
 
-rapper = Rapper.create!(name: "Philip Lil Dumplin Smalls", age:26)
+Rapper.create!(name: "Philip Lil Dumplin Smalls", age:26)
 Rapper.create!(name: "Kanye", age:42)
 Rapper.create!(name: "Nas", age:45)
 Rapper.create!(name: "Marky Mark Wahlberg", age:48)
