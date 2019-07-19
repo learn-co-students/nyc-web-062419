@@ -1,0 +1,13 @@
+<h1>Songs#edit</h1>
+<p>Find me in app/views/songs/edit.html.erb</p>
+
+<%=form_for @song do |f|%>
+    <%=f.label :title%>
+    <%=f.text_field :title%>
+    <%=f.label :release_year%>
+    <%=f.number_field :release_year%>
+    <%=f.label :fire%>
+    <%=f.text_field :fire%>
+    <%=f.collection_select(:rapper_id, @rappers, :id, :name, prompt: "Select Tha Damn Thangg")%>
+    <%=f.submit "submit"%>
+<%end%>
