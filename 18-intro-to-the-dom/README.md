@@ -1,11 +1,11 @@
 # Intro to the DOM 📜
 
 ## SWBATs
-- [ ] Draw DOM tree by looking at HTML
-- [ ] Explain what a DOM node is and what its most important attributes are
-- [ ] Use the Chrome Dev tools to explore the DOM tree and its attributes 
-- [ ] Use JS to select DOM nodes
-- [ ] Use JS to add, remove, and edit DOM nodes
+- [x] Draw DOM tree by looking at HTML
+- [x] Explain what a DOM node is and what its most important attributes are
+- [x] Use the Chrome Dev tools to explore the DOM tree and its attributes 
+- [x] Use JS to select DOM nodes
+- [x] Use JS to add, remove, and edit DOM nodes
 
 ### The Document Object Model Overview
 - What is the DOM?
