@@ -1,0 +1,134 @@
+{
+  "steaks": [
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 1
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 2
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 3
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 4
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 5
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 6
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 7
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 8
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 9
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 10
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 11
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 12
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 13
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 14
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 15
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 16
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 17
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 18
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 19
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 20
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 21
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 22
+    },
+    {
+      "name": "sirloin",
+      "delishFactor": 68,
+      "id": 23
+    },
+    {
+      "name": "Tomahawk",
+      "delishFactor": "90",
+      "id": 24
+    },
+    {
+      "name": "tomahawk",
+      "delishFactor": "123",
+      "id": 25
+    },
+    {
+      "name": "ausdi",
+      "delishFactor": "123",
+      "id": 26
+    }
+  ]
+}
