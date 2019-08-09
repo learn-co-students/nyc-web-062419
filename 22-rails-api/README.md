@@ -41,3 +41,11 @@ The `--api` flag tells Rails to build itself for use as an API, making it more l
 - Fast JSON: `https://github.com/Netflix/fast_jsonapi`
 
 
+
+
+Questions: 
+create: POST request - making a new thing
+  - from API backend
+update: PATCH request - documentation lacking
+serializers 
+
