@@ -36,6 +36,11 @@ fetch("http://ron-swanson-quotes.herokuapp.com/v2/quotes/5")
   
 })
 
+sleep(5000)
+console.log("AFTER")
+
+
+
 
 function renderQuotes(quotes){
   quotes.forEach(quote => {

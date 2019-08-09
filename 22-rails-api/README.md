@@ -2,14 +2,21 @@ Rails API
 ===========
 
 ## SWBATs
-- [ ] Create an API using Rails
-- [ ] Render JSON formatted data
-- [ ] Use serializers to control internal structure of JSON data
-- [ ] Use `fetch` in JS to communicate to an API
+- [x] Create an API using Rails
+- [x] Render JSON formatted data
+- [x] Use serializers to control internal structure of JSON data
+- [x] Use `fetch` in JS to communicate to an API
 - [ ] Coordinate data on the frontend with data on the backend
 - [ ] Synthesize knowledge of DOM manipulation, event listeners, and asynchronous JS with Rails concepts
 
 ## Notes
+
+
+### Objectives
+
+Create a POST request that when a mark is clicked, that adds the target artifact's value to the thief's score and marks that artifact as "in the wind."
+  
+Add a check in this route that checks to see if the artifact is in the wind, in which case, do not increase the thief's score.
 
 ### Getting started
 
