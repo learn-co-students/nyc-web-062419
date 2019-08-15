@@ -4,4 +4,11 @@ class Api::V1::ThiefsController < ApplicationController
 
     render json: thieves
   end
+
+  def update
+    thief = Thief.find(params[:id])
+    thief.update(code_name: params[:code_name])
+
+    render json: thief
+  end
 end
