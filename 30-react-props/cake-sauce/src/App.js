@@ -19,7 +19,7 @@ function App(props) {
   <div>
    <Header header={props.header} />
    <IndexContainer members={membersArray} />
-   <RolesContainer />
+   <RolesContainer members={membersArray} />
   </div>
  );
 }
