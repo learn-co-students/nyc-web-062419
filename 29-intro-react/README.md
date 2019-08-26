@@ -2,7 +2,7 @@
 
 - Changes to MOD structure/evaluation
 
-# Questons
+# Questions
 
 - **\_** is a compiler that allows us to write Javascript code using a syntax extension called **\_\_**. It does this by converting this code into a backwards compatible version of Javascript.
 
