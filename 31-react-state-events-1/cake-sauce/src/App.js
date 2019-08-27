@@ -25,6 +25,11 @@ class App extends Component {
   this.setState({ mvpArray: newArray });
  };
 
+ addClickHandler = memberObj => {
+  let newArray = this.state.mvpArray.filter(member => member != memberObj);
+  this.setState({ mvpArray: newArray });
+ };
+
  render() {
   console.log('App state', this.state);
 
@@ -35,7 +40,7 @@ class App extends Component {
      members={this.state.membersArray}
      clickHandler={this.clickHandler}
     />
-    <MVP members={this.state.mvpArray} />
+    <MVP members={this.state.mvpArray} clickHandler={this.addClickHandler} />
    </div>
   );
  }

@@ -3,7 +3,11 @@ import MemberCard from './MemberCard';
 
 function MVP(props) {
  let members = props.members.map(memberObj => (
-  <MemberCard key={memberObj.name} memberInfo={memberObj} />
+  <MemberCard
+   key={memberObj.name}
+   memberInfo={memberObj}
+   clickHandler={props.clickHandler}
+  />
  ));
  return (
   <div>
