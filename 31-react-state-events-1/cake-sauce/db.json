@@ -1,0 +1,11 @@
+{
+ "band": [
+  { "name": "Colin", "role": "Xylophonist" },
+  { "name": "Yana", "role": "Guitarist" },
+  { "name": "Yosef", "role": "Lead Singer" },
+  { "name": "Brianna", "role": "Bassist" },
+  { "name": "Ben", "role": "Xylophonist" },
+  { "name": "Anderson", "role": "Guitarist" },
+  { "name": "Connecticut Philip", "role": "Xylophonist" }
+ ]
+}
