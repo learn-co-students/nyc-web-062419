@@ -10,8 +10,8 @@ const Navbar = () => {
         </Link>
       </div>
       <div style={{height: '30px', margin: '20px'}}>
-        <Link to="/mvp">
-          MVP
+        <Link to="/favorites">
+          Favorites
         </Link>
       </div>
       <div style={{height: '30px', margin: '20px'}}>

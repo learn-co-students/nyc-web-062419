@@ -12,7 +12,7 @@ class IndexContainer extends React.Component {
 
   componentDidMount() {
     console.log('Index Did Mount');
-    fetch('http://localhost:4000/members')
+    fetch('http://localhost:4000/api/v1/members')
       .then(resp => resp.json())
       .then(data => this.setState({ members: data }));
   }
@@ -34,17 +34,16 @@ class IndexContainer extends React.Component {
   render() {
     console.log("Index Render")
     let memberComponents = this.filterMembers().map(member => (
-      <li>
         <MemberCard
           key={member.name}
           memberInfo={member}
           clickHandler={this.props.clickHandler}
         />
-      </li>
     ));
 
   return (
     <div>
+    {console.log(this.state)}
       {
         this.state.members.length > 0 
         ? <div className="container">
@@ -62,11 +61,13 @@ class IndexContainer extends React.Component {
                 path="/members" 
                 render={() => (
                   <div>
-                    <h1>Index Container</h1>
+                    <h1 className={'center'}>Index Container</h1>
                     <SearchForm value={this.state.searchTerm} changeHandler={this.searchChangeHandler} />
                     <br />
                     <AddForm submitHandler={this.addToList} />
-                    <ul>{memberComponents}</ul>
+                    <div style={{display: "flex", flexWrap: "wrap", margin: 'auto', width: '90vw', justifyContent: 'space-between'}}>
+                      {memberComponents}
+                    </div>
                   </div>
               )} />
             </Switch>

@@ -1,6 +1,15 @@
 Rails.application.routes.draw do
-  resources :favorite_members
-  resources :users
-  resources :members
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  namespace :api do
+    namespace :v1 do
+      resources :users
+      resources :members
+
+      post '/favorite', to: 'users#favorite'
+      
+      post '/signup', to: 'users#create'
+      post '/login', to: 'auth#login'
+      
+      get '/autologin', to: 'auth#autologin'
+    end
+  end
 end

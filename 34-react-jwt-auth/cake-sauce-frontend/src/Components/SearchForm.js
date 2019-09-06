@@ -3,9 +3,16 @@ import React from 'react'
 class SearchForm extends React.Component {
   render() {
     return (
-      <div>
+      <div className={'center'}>
         <h3>Search Form:</h3>
-        <input type="text" name="search" placeholder="search for member" value={this.props.value} onChange={(e) => this.props.changeHandler(e.target.value)} />
+        <input 
+          className={'center'}
+          type="text" 
+          name="search" 
+          placeholder="search for member" 
+          value={this.props.value} 
+          onChange={(e) => this.props.changeHandler(e.target.value)} 
+        />
       </div>
     )
   }
