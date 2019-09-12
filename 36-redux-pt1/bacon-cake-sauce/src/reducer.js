@@ -36,9 +36,9 @@ function handleCakeSauce(state = defaultState.cakeSauce, action) {
 }
 
 const rootReducer = combineReducers({
-    loggedIn: handleLogOut(),
-    bacon: handleBacon(),
-    cakeSauce: handleCakeSauce()
+    loggedIn: handleLogOut,
+    bacon: handleBacon,
+    cakeSauce: handleCakeSauce
 })
 
 export default rootReducer

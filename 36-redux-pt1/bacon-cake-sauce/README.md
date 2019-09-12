@@ -35,6 +35,6 @@
 
 1. Create Store
 2. Create Reducer to make changes to store
-   - Use combinedReducers to break your reducer into manageable functions
+   - Use combineReducers to break your reducer into manageable functions
 3. mapStateToProps to give component access to the store's state tree
 4. mapDispatchToProps to add callback functions to the props of the component that allows that component to call dispatch
