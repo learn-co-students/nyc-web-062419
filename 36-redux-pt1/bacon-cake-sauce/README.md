@@ -6,12 +6,7 @@
 
 - Allows for central state management making application data flow easier to manage and application easier to test
 
-# In class Questions:
-
-- Will we need state?
-- Where should we put state?
-- Which components need props?
-- What should those props be?
+- Allows for more efficient component rerendering
 
 ## Redux Vocabulary
 
@@ -40,8 +35,6 @@
 
 1. Create Store
 2. Create Reducer to make changes to store
-   - Use combined reducers to break your reducer into manageable functions
+   - Use combinedReducers to break your reducer into manageable functions
 3. mapStateToProps to give component access to the store's state tree
 4. mapDispatchToProps to add callback functions to the props of the component that allows that component to call dispatch
-
-
